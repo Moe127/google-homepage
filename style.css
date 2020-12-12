@@ -1,0 +1,117 @@
+/* general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* navbar */
+nav {
+    float: right;
+    margin: 20px;
+}
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+nav li a {
+    text-decoration: none;
+    color: #444;
+}
+nav li a:hover {
+    text-decoration: underline;
+    color: #777;
+}
+nav li i {
+    font-size: 25px;
+} 
+nav li  button {
+    text-decoration: none;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* main-content */
+
+.main-content {
+    margin: 0 auto;
+    width: 550px;
+    height:555px;
+    padding-top: 100px;
+    text-align: center;
+}
+.main-content input {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+.main-content input:focus{
+    outline: none;
+
+}
+.btn {
+    margin: 40px 0; 
+}
+.main-content .btn a {
+    color: #222;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding:10px;
+
+}
+.main-content p {
+    margin-top: 10px;
+}
+.main-content p a {
+    text-decoration: none;
+    margin: 10px;
+}
+.main-content p a:hover {
+    text-decoration: underline;
+}
+/* footet */
+
+footer {
+    padding-top: 10px;
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,.54);
+}
+footer hr {
+    margin: 10px;
+    border: 1px solid #dadce0;
+}
+footer p {
+    margin-left: 10px;
+
+
+}
+.info {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 40px;
+}
+.info a{
+    text-decoration: none;
+   color: rgba(0,0,0,.54);
+    margin: 0 10px
+}
+.info a:hover{
+    text-decoration: none;
+    color: #666;
+}
+.info .right-info {
+    margin-right: 30px;
+}
